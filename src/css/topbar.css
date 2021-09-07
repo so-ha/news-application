@@ -1,0 +1,47 @@
+.top {
+  position: absolute;
+  top:4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 3px; */
+}
+.top p {
+  /* display: inline; */
+  /* padding: 0.6rem 3rem; */
+  border: 1px solid black;
+}
+ .top p:hover{
+   cursor: pointer;
+  background-color: rgb(220, 220, 220);
+ }
+ @media (min-width:1256px){
+  .nav1 {
+    padding: 0.6rem 3rem;
+  }
+ }
+ @media (min-width:200px) and (max-width:1256px){
+  .nav1 {
+    padding: 1rem 1rem;
+  }
+ }
+ @media (min-width:1085px) and (max-width:1256px){
+  .top {
+    flex-wrap: wrap;
+    margin-left: 5rem;
+  }
+ }
+
+ @media (min-width:965px) and (max-width:1085px){
+   .top{
+    margin-left: 0.5rem;
+   }
+ }
+ @media (max-width:717px) {
+   .nav1{
+     visibility: hidden;
+   }
+   .hvr .fa {
+    display: inline;
+  }
+ }

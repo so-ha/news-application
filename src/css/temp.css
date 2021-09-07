@@ -1,0 +1,60 @@
+
+  .cards {
+    margin: 10px auto;
+    max-width: 1080px;
+    text-align: center;
+  }
+  div.card {
+    background: #ffffff;
+    display: inline-block;
+    margin: 8px;
+    max-width: 300px;
+    perspective: 1000;
+    position: relative;
+    text-align: left;
+    transition: all 0.3s 0s ease-in;
+    width: 300px;
+    z-index: 1;
+    border-radius: 15px;   
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  div.card img {
+    max-width: 300px;
+  }
+  .card__image{
+    width: 295px;
+    height: 221px;
+    object-fit: cover;
+    padding:0.1rem;
+    border-radius: 5px;
+      }    
+    div.card .card__image-holder {
+    background: rgba(0, 0, 0, 0.1);
+    height: 0;
+    padding-bottom: 75%;
+  }
+  div.card div.card-title {
+    background: #ffffff;
+    padding: 6px 15px 10px;
+    position: relative;
+    z-index: 0;    
+  }
+  div.card div.card-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin: 0;
+    padding: 0;
+  }
+  div.card div.card-description {
+    padding: 0 15px 10px;
+    position: relative;
+    font-size: 14px;
+  }
+  .news-snippet{
+    padding: 2px 15px 10px;
+  }
+  .news-description{
+    padding: 2px 15px 10px;
+    display: none;
+  }

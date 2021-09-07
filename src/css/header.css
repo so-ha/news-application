@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 8px, rgba(0, 0, 0, 0.22) 0px 5px 5px;
+}
+.search{
+    margin: 0.5rem;
+}
+.searchButton, .searchTerm, .searchDate{
+    padding: 0.2rem 0.5rem 0.2rem;
+}
+
+.news-corner {
+    /* color: black; */
+    padding-left:1rem;
+    font-size: 2.5rem;
+    /* letter-spacing: 4px; */
+    cursor: pointer;
+    color:white;
+}
+
+.search-area input{
+    margin-left: 20px;
+    height: 2.5rem;
+}
+.searchDate{
+    color:black;
+    margin-left: 10px;
+    height: 2.5rem;
+}
+.search-area button{
+    color: white;
+    background-color: black;
+    height: 2.5rem;
+    border:3px solid rgb(220, 215, 215);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    border-left:1px solid black;
+}
+
+input::placeholder{
+    color:black
+}
+@media (max-width:717px) {
+    .header{
+        display: inline-block;
+        text-align: center;
+    }
+    .search-box{
+        display: flex;
+        justify-content: center;
+    }
+}
